@@ -73,7 +73,7 @@
 
             // Load a .glb model
             const loader = new THREE.GLTFLoader();
-            loader.load('./assets/keys.glb', function(gltf) {
+            loader.load('./assets/raspberry_pi.glb', function(gltf) {
                 model = gltf.scene;
                 model.scale.set(.010,.010, .010); // Scale the model down by half
                 model.position.set(0, 1, 0); // Center the model
